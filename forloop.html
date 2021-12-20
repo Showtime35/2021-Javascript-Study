@@ -1,5 +1,5 @@
 <script type="text/javascript">
-/*
+  /*
 for (var i = 0;    i < 9001;     i++)
          init var  condition    increment
 
@@ -14,9 +14,22 @@ for (var i = 0;    i < 9001;     i++)
 
   //Drawing Star Pattern
 
-  var banana = "";
-  for(var b = 0; b<406; b++){
-    banana += "*";
-    console.log(banana);
+  var line = "";
+  var rows = 2;
+  var spaces = 7;
+  //loop to control rows
+  for (var a = 0; a < rows; a++) {
+
+
+    //loop to draw spaces
+    for (var i = 0; b < 7; i++) {
+      line += "-"
+    }
+    for (var b = 0; b < a + 1; b++) {
+      line += "*";
+    }
+    console.log(line);
+    line = "";
+    spaces -= 1
   }
 </script>
