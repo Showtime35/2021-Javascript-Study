@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Link a button to make an image disappear-->
+<head>
+  <meta charset="utf-8">
+  <title>Disappearing Images</title>
+  <script type="text/javascript">
+function byeBye() {
+  var image = document.getElementById("monke");
+  image.style.display = "none";
+
+  var supriseimage = document.getElementById ("suprise")
+  supriseimage.style.display = "block"
+}
+  </script>
+
+</head>
+
+<body>
+<button type="button" onclick="byeBye()">Bing Bong</button>
+
+<img id="monke" src="images/monke.jpg">
+<img id="suprise"src="images/birb.jpg" style="display:none">
+</body>
+
+</html>
