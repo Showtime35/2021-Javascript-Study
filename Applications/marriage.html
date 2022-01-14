@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marriage of UI and Programming</title>
+    <script type="text/javascript">
+      //Ask using a form how many years youve been in school
+      //output the correct title per years in school
+
+      function grades(){
+        var yrs = document.getElementById("yrs")
+        if (yrs.value == 9){
+          alert("Frosh")
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>What is your High School Classification Status</h1><br>
+    <input type="text" name="yrs" id="yrs" onchange="grades()"><br>
+  </body>
+</html>

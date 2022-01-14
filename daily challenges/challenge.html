@@ -8,6 +8,10 @@ function showbutton() {
   var button1 = document.getElementById("button1");
   button1.style.display = "block";
 }
+function bigImg(){
+  var img = document.getElementById("image")
+  img.style.width = "100%"
+}
 
     </script>
 
@@ -17,8 +21,9 @@ function showbutton() {
 <div onclick="showbutton()">Boo</div>
 
 
-    <button type="button" id="button1"  style="display:none;">Bing Bong</button>
+    <button type="button" id="button1"  onmouseover="bigImg()" style="display:none;">Bing Bong</button>
 
+<img src="images/ouchie.jpg" id="image">
 
     </body>
 
